@@ -105,7 +105,12 @@ video {
   line-height: initial;
   text-overflow: ellipsis;
 }
+html {
+  background-color: #fdfdfd;
+}
 body {
   font-weight: normal;
   background-color: var(--CCbackground);
+  max-width: 900px;
+  margin: 0 auto;
 }
